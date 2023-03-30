@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url('../images/bg-intro-desktop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-text {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    color: #fff;
+    display: flex;
+    font-size: 49px;
+}
+
+.p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 25rem;
+    height: auto;
+    min-height: 20.625rem;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+input:focus {
+    border-color: hsl(0, 100%, 74%);
+}
+
+input::placeholder {
+    padding-left: 20px;
+}
+
+#error-fname, #error-lname, #error-email, #error-password {
+    color: hsl(0, 100%, 74%);
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+#button1 {
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+}
+
+#button2 {
+    background-color: hsl(154, 59%, 51%);
+    width: 96%;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    color: hsl(246, 25%, 77%);
+}
+
+a {
+    color: hsl(0, 100%, 74%);
+    margin-left: 3px;
+}
+
